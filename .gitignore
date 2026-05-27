@@ -1,0 +1,67 @@
+# --- DEPENDENCAS Y GESTORES DE PAQUETES ---
+node_modules/
+/jspm_packages
+/web_modules
+
+# --- RESULTADOS DE COMPILACIÓN Y EMBALAJE ---
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+/public/hot/
+
+# --- CACHÉS Y LOGS ---
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.npm/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_jest/
+.rts2_cache_next/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- SEGURIDAD Y ENTORNO LOCAL (CRITICAL) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Exención obligatoria para documentar variables requeridas
+!.env.example
+
+# --- SISTEMA OPERATIVO Y METADATOS ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- EDITORES E IDE (VSCODE, JETBRAINS, ECLIPSE) ---
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# --- PRUEBAS Y DIAGNÓSTICOS ---
+coverage/
+*.lcov
+.nyc_output/
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json

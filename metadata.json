@@ -1,0 +1,6 @@
+{
+  "name": "Organizador Académico Híbrido",
+  "description": "Sistema de organización personal para estudiantes en modalidad híbrida (virtual y presencial). Centraliza y automatiza el timeline de foros, entregas de portafolios y accesos rápidos con 1-clic a videoconferencias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
